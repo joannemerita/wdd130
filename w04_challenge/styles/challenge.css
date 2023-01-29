@@ -1,0 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@500&family=Forum&display=swap');
+
+body {
+    font-family: 'Cormorant', serif;
+    text-align: center;
+}
+p {
+    font-size: 120%;
+    color: #E0AFA0
+}
+h1, h2 {
+    color: #463F3A
+}
+p.quote {
+    color: #463F3A
+}
