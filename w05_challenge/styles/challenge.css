@@ -1,0 +1,14 @@
+.web {
+    width: 100%;
+}
+div img {
+    width: 20%;
+    margin: 0 auto;
+    padding: 6%;
+    border-radius: 50%;
+    border: 20px rgb(77, 77, 77)
+}
+body {
+    margin: 0;
+    background-color: rgb(158, 158, 158);
+}
