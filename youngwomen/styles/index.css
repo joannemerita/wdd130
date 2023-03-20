@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Cormorant:wght@500&family=Crafty+Girls&family=Elsie&family=Forum&family=Give+You+Glory&family=Handlee&family=Indie+Flower&family=Montserrat&family=Rochester&display=swap');
+
+nav a {
+    padding: 30px;
+    text-decoration: none;
+    color: #020202;
+    font-weight: 700;
+}
+nav a:hover {
+    background-color: #F9DCC4;
+    color: #FFB5A7;
+    font-weight: 600;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFB5A7;
+    border-radius: 50px;
+}
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+hr {
+    margin: 0%;
+}
+body {
+    background-color: #F9DCC4;
+    font-family: 'Handlee', sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/* here comes the exclusive css */
+
+#logo {
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    font-family: 'Rochester', sans-serif;
+}
+.text {
+    margin: 70px auto;
+    width: 800px;
+}
+#girls_img {
+    width: 500px;
+    height: 300px;
+    margin: 70px auto;
+}
+
+/* here it ends */
+
+footer {
+    display: grid;
+    background-color: #FEC89A;
+}
+footer h3 {
+    margin-right: auto;
+    padding: 10px;
+}
+footer a {
+    color: #020202;
+}
