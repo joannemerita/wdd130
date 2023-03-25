@@ -1,29 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Cormorant:wght@500&family=Crafty+Girls&family=Elsie&family=Forum&family=Give+You+Glory&family=Handlee&family=Indie+Flower&family=Montserrat&family=Rochester&display=swap');
 
+/* CSS for all three pages*/
+
 nav a {
     padding: 30px;
     text-decoration: none;
     color: #020202;
     font-weight: 700;
 }
+
 nav a:hover {
     background-color: #F9DCC4;
     color: #FFB5A7;
     font-weight: 600;
 }
+
 nav {
     display: flex;
     justify-content: space-around;
     background-color: #FFB5A7;
     border-radius: 50px;
 }
+
 .content {
     max-width: 1600px;
     margin: 0 auto;
 }
+
 hr {
     margin: 0%;
 }
+
 body {
     background-color: #F9DCC4;
     font-family: 'Handlee', sans-serif;
@@ -31,43 +38,57 @@ body {
     font-size: 1.2em;
 }
 
-/* here comes the exclusive css */
+footer {
+    display: grid;
+    background-color: #FEC89A;
+}
+
+footer h3 {
+    margin-right: auto;
+    padding: 10px;
+}
+
+footer a {
+    color: #020202;
+}
+
+/* Home Page CSS */
 
 #logo {
     display: flex;
     justify-content: center;
 }
-h2 {
+
+h2, h1 {
     font-family: 'Rochester', sans-serif;
 }
-.text {
+
+.info {
     margin: 70px auto;
     width: 800px;
 }
+
 #girls_img {
     width: 500px;
     height: 300px;
     margin: 70px auto;
 }
 
-/* here it ends */
+/* Presentations CSS */
 
-footer {
-    display: grid;
-    background-color: #FEC89A;
-}
-footer h3 {
-    margin-right: auto;
-    padding: 10px;
-}
-footer a {
-    color: #020202;
-}
 .container {
     position: relative;
     width: 50%;
 }
+
+.container:hover .image {
+    opacity: 0.3;
+}
   
+.container:hover .middle {
+    opacity: 1;
+}
+
 .image {
     opacity: 1;
     display: block;
@@ -87,17 +108,88 @@ footer a {
     -ms-transform: translate(-50%, -50%);
     text-align: center;
 }
-  
-.container:hover .image {
-    opacity: 0.3;
-}
-  
-.container:hover .middle {
-    opacity: 1;
-}
-  
+
 .text {
     background-color: #FEC89A;
     color: #020202;
     padding: 16px 32px;
 }
+
+
+/* Activities CSS */
+
+
+#activities {
+    max-width: 1400px;
+    margin: 0 auto;
+    font-size: 17px;
+}
+
+#activities hr {
+    margin: 20px auto;
+}
+
+#activities p {
+    font-size: 24px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container_activities {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.act_img {vertical-align: middle;}
+
+.container_activities .text_act {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+    grid-gap: 50px;
+}
+
+ /*
+.acts {
+    position: relative;
+    width: 25%;
+}
+
+.act_img {
+    opacity: 1;
+    display: block;
+    width: 50%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.act {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.picnic {
+    background-color: #FEC89A;
+    color: #020202;
+    padding: 16px 32px;
+}
+*/
