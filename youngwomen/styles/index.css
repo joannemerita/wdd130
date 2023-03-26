@@ -130,7 +130,16 @@ h2, h1 {
 }
 
 #activities p {
-    font-size: 24px;
+    font-size: 25px;
+}
+
+#suggestions {
+    margin: 10% auto;
+    font-size: 50px;
+}
+
+.picnic {
+    margin: 0 auto;
 }
 
 * {
