@@ -76,9 +76,15 @@ h2, h1 {
 
 /* Presentations CSS */
 
+#meet_girls {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 .container {
     position: relative;
     width: 50%;
+    margin: 0 auto;
 }
 
 .container:hover .image {
@@ -113,6 +119,21 @@ h2, h1 {
     background-color: #FEC89A;
     color: #020202;
     padding: 16px 32px;
+}
+
+.presentations_hr {
+    margin: 100px 100px;
+}
+
+#sisters {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#young_women {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 
